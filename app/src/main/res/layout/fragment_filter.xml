@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FilterFragment">
+
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+      <Button
+          android:id="@+id/clickFilter"
+          android:layout_width="186dp"
+          android:layout_height="36dp"
+          android:layout_marginTop="56dp"
+          android:layout_marginBottom="45dp"
+          android:background="@drawable/round_button"
+          android:text="@string/filterButton"
+          android:textColor="@color/colorWhiteBackground"
+          android:textSize="18sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.497"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/petsAllowedCheckBox" />
+
+      <TextView
+          android:id="@+id/structureTypeTextView"
+          android:layout_width="160dp"
+          android:layout_height="33dp"
+          android:layout_marginTop="45dp"
+          android:text="@string/structure"
+          android:textSize="18sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.063"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <CheckBox
+          android:id="@+id/hotelcheckBox"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/hotel"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.046"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/structureTypeTextView" />
+
+      <CheckBox
+          android:id="@+id/restaurantCheckBox"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/restaurant"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.051"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/hotelcheckBox" />
+
+      <CheckBox
+          android:id="@+id/attractionCheckBox"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/attraction"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.05"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/restaurantCheckBox" />
+
+
+      <TextView
+          android:id="@+id/ratingTextView"
+          android:layout_width="160dp"
+          android:layout_height="33dp"
+          android:layout_marginTop="35dp"
+          android:text="@string/rating"
+          android:textSize="18sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.063"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/attractionCheckBox" />
+
+      <TextView
+          android:id="@+id/budgetTextView"
+          android:layout_width="160dp"
+          android:layout_height="33dp"
+          android:layout_marginTop="35dp"
+          android:text="@string/budget"
+          android:textSize="18sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.063"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
+
+      <TextView
+          android:id="@+id/servicesTextView"
+          android:layout_width="160dp"
+          android:layout_height="33dp"
+          android:layout_marginTop="35dp"
+          android:text="@string/services"
+          android:textSize="18sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.063"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/budgetBar" />
+
+      <CheckBox
+          android:id="@+id/parkingCheckBox"
+          android:layout_width="106dp"
+          android:layout_height="36dp"
+          android:text="@string/parking"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.052"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/servicesTextView" />
+
+      <CheckBox
+          android:id="@+id/freeWiFiCheckBox"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/free_wifi"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.049"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/parkingCheckBox" />
+
+      <CheckBox
+          android:id="@+id/petsAllowedCheckBox"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/pets_allowed"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.053"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/freeWiFiCheckBox" />
+
+      <RatingBar
+          android:id="@+id/ratingBar"
+          android:layout_width="wrap_content"
+          android:layout_height="47dp"
+          android:numStars="5"
+          android:rating="0"
+          android:stepSize="0.5"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.093"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/ratingTextView" />
+
+      <TextView
+          android:id="@+id/budgetValue"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="22dp"
+          android:text=""
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/budgetTextView"
+          tools:ignore="MissingConstraints" />
+
+      <me.bendik.simplerangeview.SimpleRangeView
+          android:id="@+id/budgetBar"
+          android:layout_width="398dp"
+          android:layout_height="25dp"
+          android:layout_marginTop="2dp"
+          app:count="2000"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/budgetValue"
+          app:movable="true"
+          tools:ignore="MissingConstraints" />
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

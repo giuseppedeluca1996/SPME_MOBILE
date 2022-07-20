@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">CoVid19</string>
+    <string name="sign_in">Sign In</string>
+    <string name="not_registered_yet"><u>Not registered yet? Sign Up</u></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in_as_guest">Sign In as a guest</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="preferences_view">Do you want other user to see your full name?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="gender">Gender</string>
+    <string name="email_or_username">Email or Username</string>
+    <string name="where_do_you_want_to_go">Where do you want go?</string>
+    <string name="discover_nearby_places">Discover nearby places</string>
+    <string name="powered_by">Powered by CoVid19</string>
+    <string name="around_you">Around you</string>
+    <string name="backbtn">backButton</string>
+    <string name="aroundyouImage">aroundYouImg</string>
+    <string name="search">Search</string>
+    <string name="napoliImg">TODO</string>
+    <string name="planeimg">planeImg</string>
+    <string name="hotelimg">hotelImg</string>
+    <string name="resraurantimg">resraurantImg</string>
+    <string name="attractionimg">attractionImg</string>
+    <string name="mapimg">mapImg</string>
+    <string name="nearmeimg">nearMeImg</string>
+    <string name="research">Research</string>
+    <string name="filter">Filter</string>
+    <string name="order">Order</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="hotel">Hotel</string>
+    <string name="attraction">Attraction</string>
+    <string name="parking">Parking</string>
+    <string name="free_wifi">Free Wi-Fi</string>
+    <string name="pets_allowed">Pets allowed</string>
+    <string name="rating">Rating</string>
+    <string name="structure">Structure</string>
+    <string name="services">Services</string>
+    <string name="budget">Budget</string>
+    <string name="filterButton">Filter</string>
+    <string name="orderButton">Order</string>
+    <string name="textViewSort">Sorting Criteria</string>
+    <string name="higher_rating">Higher rating</string>
+    <string name="minor_rating">Minor rating</string>
+    <string name="greater_distance">"Greater Distance "</string>
+    <string name="smallest_distance">Smallest distance</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

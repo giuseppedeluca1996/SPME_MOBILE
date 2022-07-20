@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsFragment" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center|bottom">
+
+        <Button
+            android:id="@+id/reserchButtonMapsFragment"
+            android:layout_width="114dp"
+            android:layout_height="32dp"
+            android:background="@drawable/rounded_corners"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/research"
+            android:textAlignment="gravity"
+            android:textColor="@color/colorNotFocusable"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:contentDescription="@string/research"
+            android:elevation="6dp"
+            android:src="@drawable/ic_baseline_refresh_24"
+            app:layout_constraintBottom_toBottomOf="@+id/reserchButtonMapsFragment"
+            app:layout_constraintEnd_toEndOf="@+id/reserchButtonMapsFragment"
+            app:layout_constraintHorizontal_bias="0.02"
+            app:layout_constraintStart_toStartOf="@+id/reserchButtonMapsFragment"
+            app:layout_constraintTop_toTopOf="@+id/reserchButtonMapsFragment"
+            app:layout_constraintVertical_bias="0.55"
+            app:tint="@color/colorPrimaryDark" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/closeButtonMapsFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/ic_baseline_clear_24"
+        android:tint="@color/colorBlackBackground" />
+
+</FrameLayout>

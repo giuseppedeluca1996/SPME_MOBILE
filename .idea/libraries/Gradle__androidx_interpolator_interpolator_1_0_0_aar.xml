@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.interpolator:interpolator:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Gradle/caches/transforms-2/files-2.1/6e0f82970a69a6b386ee45a08ac362fe/interpolator-1.0.0/res" />
+      <root url="file://$USER_HOME$/Gradle/caches/transforms-2/files-2.1/f6d75784577359a2109d5e941c8e16a1/interpolator-1.0.0/res" />
+      <root url="file://$USER_HOME$/Gradle/caches/transforms-2/files-2.1/451c46a6f3ad92c62bdb5f68bfe92407/interpolator-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Gradle/caches/transforms-2/files-2.1/451c46a6f3ad92c62bdb5f68bfe92407/interpolator-1.0.0/res" />
+      <root url="jar://$USER_HOME$/Gradle/caches/transforms-2/files-2.1/451c46a6f3ad92c62bdb5f68bfe92407/interpolator-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/451c46a6f3ad92c62bdb5f68bfe92407/interpolator-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/28690097ffee910c8f36f35b1c6e8554/transformed/interpolator-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8970e9f00127f10e8f08a1ec4564f168/transformed/interpolator-1.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8970e9f00127f10e8f08a1ec4564f168/transformed/interpolator-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8970e9f00127f10e8f08a1ec4564f168/transformed/interpolator-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Gradle/caches/modules-2/files-2.1/androidx.interpolator/interpolator/1.0.0/fefd5e3cbc479b6b4a9532d05688a1e659e8d3d2/interpolator-1.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.interpolator/interpolator/1.0.0/fefd5e3cbc479b6b4a9532d05688a1e659e8d3d2/interpolator-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
